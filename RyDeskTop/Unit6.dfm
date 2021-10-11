@@ -1,0 +1,30 @@
+object Form6: TForm6
+  Left = 254
+  Top = 113
+  Width = 208
+  Height = 284
+  BorderStyle = bsSizeToolWin
+  Caption = 'Form6'
+  Color = clBtnFace
+  ParentFont = True
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object ListBox1: TListBox
+    Left = 0
+    Top = 0
+    Width = 200
+    Height = 250
+    Align = alClient
+    BorderStyle = bsNone
+    Ctl3D = False
+    ItemHeight = 16
+    ParentCtl3D = False
+    Style = lbOwnerDrawVariable
+    TabOrder = 0
+    OnDblClick = ListBox1DblClick
+    OnDrawItem = ListBox1DrawItem
+    OnMeasureItem = ListBox1MeasureItem
+  end
+end
